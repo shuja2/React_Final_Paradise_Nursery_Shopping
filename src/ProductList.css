@@ -144,6 +144,13 @@ body {
 .product-button:hover {
     background-color: #c0392b;
 }
+.product-button.disabled{
+    background-color: #c9c9bf;
+}
+.product-button.disabled:hover{
+    cursor: default;
+    background-color: #c9c9bf;
+}
 
 /* Pseudo-elements - Sale badge */
 .product-card::before {
