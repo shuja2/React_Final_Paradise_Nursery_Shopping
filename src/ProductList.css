@@ -39,6 +39,40 @@ body {
    
 }
 
+@media (min-width: 768px) {
+    .navbar .span_total{
+    position: absolute;
+    top: 7.1vh;
+    right: 4.8vw;
+}
+
+@media (min-width: 926px) {
+    .navbar .span_total{
+    position: absolute;
+    top: 5.3vh;
+    right: 4.1vw;
+}
+
+}
+
+@media (min-width: 1024px) {
+    .navbar .span_total{
+    position: absolute;
+    /* top: 7.2vh; */
+    right: 3.8vw;
+}
+    
+}
+
+@media (min-width: 1200px) {
+    .navbar .span_total{
+    position: absolute;
+    top: 5.3vh;
+    right: 2.8vw;
+}
+
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
