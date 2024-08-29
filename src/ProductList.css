@@ -43,7 +43,7 @@ body {
     .navbar .span_total{
     position: absolute;
     top: 7.1vh;
-    right: 4.8vw;
+    right: 4.8vw;}
 }
 
 @media (min-width: 926px) {
@@ -200,6 +200,12 @@ body {
     justify-content: center;
     width: 650px;
     font-size: 19px;
+}
+.luxury a{
+    margin: 5px 20px;
+}
+.plants_a_div{
+        margin: 5px auto;
 }
 .cart{
     color: white;
